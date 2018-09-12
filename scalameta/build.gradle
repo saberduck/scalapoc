@@ -1,0 +1,9 @@
+repositories {
+    jcenter()
+}
+
+apply plugin: 'scala'
+
+dependencies {
+    compile 'org.scalameta:scalameta_2.12:3.7.4'
+}
