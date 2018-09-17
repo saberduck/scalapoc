@@ -1,5 +1,6 @@
 package scalapoc
 import scala.meta._
+import scala.meta.tokens.Token.Comment
 
 object Scalameta {
 
@@ -28,6 +29,9 @@ object Scalameta {
     }
 
     process(ast)
+
+    println("Comments")
+    code.tokenize.get.filter(t => t.isInstanceOf[Comment]).foreach(comment => println(comment.structure))
   }
 
 }

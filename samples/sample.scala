@@ -1,6 +1,6 @@
 
 object Test {
-  // comment
+  // TODO
   val x = 2
 
   val a = 1
