@@ -1,0 +1,9 @@
+repositories {
+    jcenter()
+}
+
+apply plugin: 'scala'
+
+dependencies {
+    compile 'org.scala-lang:scala-compiler:2.12.6'
+}
