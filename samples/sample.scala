@@ -13,3 +13,7 @@ object Test {
     println("y < =0")
   }
 }
+
+/**
+  * multine line comment
+  */
